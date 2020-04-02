@@ -1,10 +1,11 @@
 import React from 'react';
 import { Image } from './Image';
+import '../../index.css';
 
 export default { 
   title: 'Elements|Image',
   decorators: [
-    storyFn2 => <div style={{ maxWidth: '200px' }}>{storyFn2()}</div>
+    storyFn2 => <div style={{ width: '200px', height: '200px', display: 'flex' }}>{storyFn2()}</div>
   ]
 };
 

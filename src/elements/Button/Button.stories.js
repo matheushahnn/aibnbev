@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './Button';
+import '../../index.css';
 
 export default { 
   title: 'Elements|Button',

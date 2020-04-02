@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text } from './Text';
+import '../../index.css';
 
 export default { 
   title: 'Elements|Text',

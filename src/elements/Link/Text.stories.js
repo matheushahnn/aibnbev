@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from './Link';
+import '../../index.css';
 
 export default { 
   title: 'Elements|Link',

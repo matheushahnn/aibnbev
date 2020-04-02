@@ -1,5 +1,6 @@
 import React from 'react';
 import { ProductTile } from './ProductTile';
+import '../../index.css';
 
 export default { 
   title: 'Containers|ProductTile',
@@ -14,7 +15,8 @@ const products = [
     src: "https://qa-m1-dr.abi-sandbox.net/media/catalog/product/-/R/-R002151.png",
     subtitle: "12 Unit - 33oz Bottle",
     unitprice: "RD$32,00/Unit",
-    promotion: "Buy 3, get 1 free."
+    promotion: "Buy 3, get 1 free.",
+    quantity: 0
   },
 ]
 

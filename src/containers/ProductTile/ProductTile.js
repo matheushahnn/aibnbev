@@ -11,7 +11,7 @@ const ProductItemStyled = styled.div`
   padding: 10px;
   max-width: 300px;
   min-width: 200px;
-  height: 400px;
+  height: 380px;
   margin: 10px 0 0 10px;
   border: 1px solid #AEAEAE;
   border-radius: 5px;
@@ -24,8 +24,11 @@ const ProductTileStyled = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
-  align-items: center;
-  justify-content: center;
+
+  @media (max-width: 450px) {
+    align-items: center;
+    justify-content: center;
+  }
 `
 
 export function ProductTile(props) {
