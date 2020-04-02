@@ -34,9 +34,7 @@ export const ButtonStyled = styled.button`
   }
 `
 
-export function Button(props) {
-  const { disabled, text, type, className, onClick } = props;
-
+export function Button({ disabled, text, type, className, onClick }) {
   return (
     <ButtonStyled type={type} className={className} disabled={disabled} onClick={onClick}>
       {text}

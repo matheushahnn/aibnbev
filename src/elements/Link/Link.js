@@ -9,9 +9,7 @@ const LinkStyled = styled.a`
   font-size: 12px;
 `
 
-export function Link(props) {
-  const { text } = props;
-
+export function Link({ text }) {
   return (
     <LinkStyled href="#">
       {text}

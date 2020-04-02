@@ -11,9 +11,7 @@ export const ProductStyled = styled.div`
     height: 200px;
   }
 `
-export function Product(props) {
-  const { product: {src, text, subtitle, unitprice, promotion}} = props;
-
+export function Product({ product: {src, text, subtitle, unitprice, promotion}}) {
   return (
     <ProductStyled>
       <Image src={src} />

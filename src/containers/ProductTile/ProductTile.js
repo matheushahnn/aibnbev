@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Product } from '../../components/Product/Product';
 import { ProductForm } from '../../components/ProductForm/ProductForm';
+import { borderColor } from '../../assets/styles/settings/colors';
 
 const ProductItemStyled = styled.div`
   flex: 1 0 0;
@@ -13,9 +14,9 @@ const ProductItemStyled = styled.div`
   min-width: 200px;
   height: 380px;
   margin: 10px 0 0 10px;
-  border: 1px solid #AEAEAE;
+  border: 1px solid ${borderColor};
   border-radius: 5px;
-  box-shadow: 0 8px 6px -6px  rgba(0,0,0,0.5);
+  box-shadow: 0 8px 6px -6px rgba(0,0,0,0.5);
 `
 
 const ProductTileStyled = styled.div`
@@ -31,9 +32,7 @@ const ProductTileStyled = styled.div`
   }
 `
 
-export function ProductTile(props) {
-  const {products} = props;
-
+export function ProductTile({products}) {
   return (
     <ProductTileStyled>
       {

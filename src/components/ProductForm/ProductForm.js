@@ -24,8 +24,7 @@ export const ProductFormStyled = styled.form`
     flex: 1 0 0
   }
 `
-export function ProductForm(props) {
-  const { product: { quantity } } = props;
+export function ProductForm({ product: { quantity } }) {
   const [productQuantity, setQuantity] = useState(quantity)
 
   const checkDisabled = () => !(productQuantity > 0);

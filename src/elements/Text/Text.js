@@ -28,9 +28,7 @@ const TextStyled = styled.span`
   }
 `
 
-export function Text(props) {
-  const { text, className } = props;
-
+export function Text({ text, className }) {
   return (
     <TextStyled className={className}>
       {text}

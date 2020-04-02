@@ -1,5 +1,6 @@
 // General Colors
 export const primaryColor = "#0D47A1";
+export const borderColor = "#AEAEAE";
 
 // Text Colors
 export const titleColor = "#000000";
